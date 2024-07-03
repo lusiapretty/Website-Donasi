@@ -1,0 +1,163 @@
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #145aa0;
+}
+body {
+    margin-top: 90px;
+}
+.navbar-brand img{
+    margin-left: 40px;
+    width: 180px;
+    height: 65px;
+}
+.link{
+    color: white;
+    margin: 20px;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.link:hover{
+    color: rgba(183, 181, 181, 0.779);
+    text-decoration: none;
+}
+
+.awal{
+    margin-top: 35px;
+    background: linear-gradient(to top, #ffffff, #739bc3,#155ca3);
+    height: 400px;
+}
+.awal img{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    width: 250px;
+    height: 115px;
+    margin-left: 43%;
+}
+.text1{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 85px;
+    margin-right: 85px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.text2{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+.hr1{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 40px;
+    size: 10px;
+    border-top: 2px solid #000000;
+}
+.hr2{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    size: 10px;
+    border-top: 2px solid #000000;
+}
+
+/* bencana */
+.kos{
+    height: 148px;
+}
+.kos1{
+    height: 95px;
+}
+.kos2{
+    height: 10px;
+}
+.kos3{
+    height: 60px;
+}
+.bencana{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+}
+@media (max-width: 767px){
+    body {
+        margin-top: 75px;
+    }
+    .navbar-brand img{
+        margin-left: 10px;
+        width: 150px;
+        height: 60px;
+    }
+    .link{
+        color: white;
+        margin: 20px;
+        margin-right: 30px;
+        font-weight: bold;
+    }
+    .link:hover{
+        color: rgba(183, 181, 181, 0.779);
+        text-decoration: none;
+    }
+    .awal img{
+        margin-top: 10px;
+        justify-content: center;
+        text-align: center;
+        justify-items: center;
+        width: 170px;
+        height: 100px;
+        margin-left: 30%;
+    }
+    .text1{
+        font-size: 10px;
+        font-weight: bold;
+        margin: 25px;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .text2{
+        font-size: 10px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 20px;
+    }
+    .hr1{
+        margin-left: 115px;
+        margin-right: 115px;
+        size: 10px;
+        border-top: 2px solid #000000;
+    }
+    .hr2{
+        margin-left: 85px;
+        margin-right: 85px;
+        size: 10px;
+        border-top: 2px solid #000000;
+    }
+    .kos{
+        height: 80px;
+    }
+    .kos1{
+        height: 40px;
+    }
+    .kos2{
+        height: 5px;
+    }
+    .bencana{
+        text-align: center;
+        font-weight: lighter;
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NL Donasi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="/css/utama.css">
+    <link rel="stylesheet" href="/css/donasi.css">
+    <link rel="stylesheet" href="/css/footer.css">
+</head>
+<body id="body">
+    <nav  class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <a class="navbar-brand" href="#"><img src="/Gambar/logoheader.png" alt="logo NL Donation"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="link" href="utama.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="link" href="utama.html#infobencana">Info Bencana</a>
+                </li>
+                <li class="nav-item">
+                    <a class="link" href="utama.html#galeri">Galeri</a>
+                </li>
+                <li class="nav-item">
+                    <a class="link" href="donasi.html">Donasi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="link" href="#kontak">Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row-1">
+        <div class="col col-md-4">
+            <div class="col1">
+                <p class="deskripsi"><b class="jumlah">1000</b><br>
+                 #Orang Baik</p>
+            </div>
+                
+        </div>
+        <div class="col col-md-4">
+            <div class="col2">
+                <p class="deskripsi"><b class="total-barang"> 5079</b><br>
+                Jumlah Barang</p>
+            </div>
+        </div>
+        <div class="col col-md-4">
+            <div class="col3">
+                <p class="deskripsi"> Rp. <b class="total-uang"> 65000000</b> <br>
+                Jumlah Uang</p>
+            </div>  
+        </div>
+    </div>
+
+    <!-- Donasi -->
+    <section id="donasi" class="container mt-5">
+        <h2 class="donasi1">Donasi</h2>
+        <p class="choose">Pilih salah satu jenis donasi yang ingin Anda berikan:</p>
+    <hr>
+    <div class="pilihdonasi row">
+        <div class="border col-md-6">
+            <h4>Donasi Uang</h4>
+            <hr>
+            <div class="donasi-info">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Deskripsi donasi uang.</p>
+                        <p>Informasi tambahan tentang donasi uang.</p>
+
+                        <a href="#donasi-uang" class="klik btn btn-primary" data-toggle="collapse">Donasi Uang</a>
+                    </div>
+                </div>
+            </div>
+            <div id="donasi-uang" class="collapse mt-3">
+                <form>
+                    <div class="form-group">
+                        <label for="nama">Nama:</label>
+                        <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda">
+                    </div>
+                    <div class="form-group">
+                        <label for="jumlah-uang">Jumlah Uang:</label>
+                        <input type="number" class="form-control" id="jumlah-uang" placeholder="Masukkan jumlah uang yang ingin Anda donasikan">
+                    </div>
+                    <a href="#body"> <button type="submit" class="btnuang btn btn-success">Donasikan</button></a>
+                </form>
+            </div>
+        </div>
+        <div class="border col-md-6">
+            <h4>Donasi Barang</h4>
+            <hr>
+            <div class="donasi-info">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Deskripsi donasi barang.</p>
+                        <p>Informasi tambahan tentang donasi barang.</p>
+
+                        <a href="#donasi-barang" class="klik btn btn-primary" data-toggle="collapse"> Donasi Barang</a>
+                    </div>
+                </div>
+                <div id="donasi-barang" class="collapse mt-3">
+                    <form>
+                        <div class="form-group">
+                            <label for="deskripsi-barang">Nama Barang:</label>
+                            <input type="text" class="form-control" id="nama-barang" placeholder="Masukkan nama &deskripsi barang yang ingin Anda donasikan">
+                        </div>
+                        <div class="form-group" >
+                            <label for="deskripsi-barang">Jumlah Barang:</label>
+                            <input type="number" class="form-control" id="jumlah-barang" placeholder="Masukkan jumlah barang yang ingin Anda donasikan">
+                        </div>
+                        <a href="#body"> <button type="submit" class="btnbarang btn btn-success">Donasikan</button></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+
+<div class="quotes">
+<div class="quote-box">
+    <p class="quote-text">"Berikanlah dengan tulus, karena setiap donasi memiliki kekuatan untuk merubah hidup."</p>
+    <p class="quote-author">- Unknown -</p>
+</div>
+</div>
+
+   <!-- Kontak -->
+<section id="kontak">
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-col">
+                    <h3>NL Donation</h3>
+                    <ul>
+                            <li><i class="fa-solid fa-location-dot"></i>Location</li>
+                            <li>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.861398206363!2d115.15946431416643!3d-8.799089692389373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd244c13ee9d753%3A0x6c05042449b50f81!2sBali%20State%20Polytechnic!5e0!3m2!1sen!2sid!4v1607311171408!5m2!1sen!2sid" width="330" height="230" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            </li>
+                            <li><a href="#"><i class="fa-solid fa-envelope"></i>NL_Web@gmail.com</a></li>
+                            <li><a href="#"><i class="fa-solid fa-phone"></i>08** **** ****</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 footer-col">
+                    <h3>FOLLOW US</h3>
+                    <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i>NLWeb_official</a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i>NLWeb_official</a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i>NLWeb_official</a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i>NLWeb_official</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 footer-col">
+                    <h3>MASUKKAN</h3>
+                    <form>
+                            <div class="form-group">
+                                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                            </div>
+                            <button type="submit">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+        <div class="copyright">
+            <p>copyright by NLWeb</p>
+        </div>
+        </div>  
+<script src="js/smoot.js"></script>
+<script src="js/+barang.js"></script>
+<script src="js/+uang.js"></script>
+<script src="js/+orang.js"></script>
+
+</body>
+</html>

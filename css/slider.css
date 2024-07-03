@@ -1,0 +1,117 @@
+.slider-container{
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  width: 1000px;
+  margin-left: 5%;
+  margin-bottom: 50px;
+}
+.slider .slider1{
+  border-radius:10px ;
+}
+.bacground{
+  width: 100%;
+  height: 320px;
+  background-color:#145aa051;
+  border-radius: 10px;
+}
+.bacground p{
+  margin: 95px;
+  font-weight: bold;
+}
+.slick-prev{
+  position: absolute;
+  height: 32px;
+  top: 40%;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  left: -50px;
+  box-shadow: 2 2 2rem rgba(0, 0, 0, 0.197);
+  border: 1px;
+}
+.slick-next{
+  position: absolute;
+  height: 32px;
+  top: 40%;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  box-shadow: 2 2 2rem rgba(0, 0, 0, 0.197);
+  right: -50px;
+  border: 1px;
+}
+.custom-dots{
+  list-style-type: none;
+  border: 0px;
+  
+}    
+ul.custom-dots {
+  padding: 0;
+  border: 0px;
+  box-shadow: 2 2 2rem rgba(0, 0, 0, 0.197);
+}
+
+ul.custom-dots li {
+  display: inline-block;
+  margin: 0 2px;
+  border: 0px;
+}
+@media (max-width: 767px){
+  .slider-container{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    width: 410px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+  }
+  .slider .slider1{
+    border-radius:10px ;
+  }
+  .bacground{
+    width: 100%;
+    height: 132px;
+    background-color:#145aa051;
+    border-radius: 10px;
+  }
+  .bacground p{
+    margin: 15px;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  .slick-prev{
+    position: absolute;
+    height: 32px;
+    top: 32%;
+    justify-content: center;
+    align-items: center;
+    left: -30px;
+    border: 1px;
+  }
+  .slick-next{
+    position: absolute;
+    height: 32px;
+    top: 32%;
+    justify-content: center;
+    align-items: center;
+    right: -30px;
+    border: 1px;
+  }
+  .custom-dots{
+    list-style-type: none;
+    border: 0px;
+    
+  }    
+  ul.custom-dots {
+    padding: 0;
+    border: 0px;
+    box-shadow: 2 2 2rem rgba(0, 0, 0, 0.197);
+  }
+  
+  ul.custom-dots li {
+    display: inline-block;
+    margin: 0 2px;
+    border: 0px;
+  }
+}

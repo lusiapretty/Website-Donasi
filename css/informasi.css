@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(90, 196, 249);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand img{
+  margin-left: 40px;
+  width: 180px;
+  height: 65px;
+}
+
+nav {
+    text-align: center;
+}
+
+.container h1 {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+}
+
+.card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .card h2 {
+    color: #000000;
+    font-family: "Helvetica", sans-serif;
+  }
+  
+  .card p {
+    color: #000000;
+  }
+
+.card :hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+  
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+ 
